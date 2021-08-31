@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.::Formulario de Cotizacion::.</title>
+</head>
+<body>
+    <h1>Formulario de Cotizacion</h1>
+    <form action="destino.html" method="GET" onsubmit="return validar()">
+        Nombre del producto:
+        <br>
+        <input type="text" autofocus id='nombre_producto'>
+        <br>
+        Valor:
+        <br>
+        <input type="text" id='valor'>
+        <br>
+        Cantidad:
+        <br>
+        <input type="text" id='cantidad' >
+        <br>
+        Nombre del cliente:
+        <br>
+        <input type="text"  id='nombre_cliente'>
+        <br>
+        Email:
+        <br>
+        <input type="text" id='email' >
+        <br>
+        <input type="submit" value="COTIZAR">
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

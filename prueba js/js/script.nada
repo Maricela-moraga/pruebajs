@@ -1,0 +1,24 @@
+function validar(){
+    var nombre= document.getElementById('nombre_producto').value
+    if(nombre.length !=0){
+    }
+    var valor= document.getElementById('valor').value
+    if (valor.length !=0){
+
+    }
+    var cantidad= document.getElementById('cantidad').value
+    if (cantidad.length !=0){
+
+    }
+    var cliente = document.getElementById('nombre_cliente').value
+    if (cliente.length !=0){
+
+    }
+    var email=document.getElementById('email').value
+    if (email.length !=0){
+        return true
+    } else{
+        return false
+    }
+    
+}
